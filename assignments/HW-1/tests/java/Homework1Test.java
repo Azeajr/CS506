@@ -12,7 +12,9 @@ class Homework1Test {
     private static Stream<Arguments> ArraysFindLast() {
         return Stream.of(
                 Arguments.of(new int[]{1, 2, 3}, 2, 1),
-                Arguments.of(new int[]{1, 2, 3}, 1, 0)
+                Arguments.of(new int[]{1, 2, 3}, 1, 0),
+                Arguments.of(new int[]{0, 1, 2, 3}, 1, 1),
+                Arguments.of(new int[]{2, 3, 5}, 2, 0)
         );
     }
 
