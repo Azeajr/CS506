@@ -31,7 +31,8 @@ public class Homework1 {
         String[] temp = source.split(" ");
         int count = 0;
         for (String str : temp) {
-            if (word == str) {
+            System.out.println(str);
+            if (word.equals(str)) {
                 count++;
             }
         }
@@ -86,6 +87,6 @@ public class Homework1 {
 // Test: digits = "1234"; Expected = "1,234";
 
     public static void main(String[] args) {
-
+        System.out.println(countOccurrence("Antonio Antonio", "Antonio"));
     }
 }
