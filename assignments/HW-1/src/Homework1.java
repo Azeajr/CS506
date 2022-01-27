@@ -9,7 +9,10 @@ public class Homework1 {
      * @throws NullPointerException if x is null
      */
     public static int findLast(int[] x, int y) {
-        for (int i = x.length - 1; i >= 0; i--) {
+        // for (int i = x.length - 1; i > 0; i--) {
+        for (int i = x.length - 1;
+             i > 0;
+             i--) {
             if (x[i] == y) {
                 return i;
             }
@@ -31,6 +34,7 @@ public class Homework1 {
         String[] temp = source.split(" ");
         int count = 0;
         for (String str : temp) {
+            // if (word == str) {
             if (word.equals(str)) {
                 count++;
             }
@@ -53,6 +57,7 @@ public class Homework1 {
         int count = 0;
 
         for (int i = 0; i < x.length; i++) {
+            // if (x[i] >= 0) {
             if (x[i] > 0) {
                 count++;
             }
@@ -76,6 +81,7 @@ public class Homework1 {
         for (int i = digits.length() - 1; i >= 0; i--) {
             result.insert(0, digits.charAt(i));
             nDigits++;
+            // if (((nDigits % 3) == 0) && (i > 1)) {
             if (((nDigits % 3) == 0) && (i > 0)) {
                 result.insert(0, ",");
             }
