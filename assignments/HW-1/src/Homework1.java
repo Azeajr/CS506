@@ -34,7 +34,7 @@ public class Homework1 {
         String[] temp = source.split(" ");
         int count = 0;
         for (String str : temp) {
-            // if (word == str) {
+//            if (word == str) {
             if (word.equals(str)) {
                 count++;
             }
