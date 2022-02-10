@@ -23,7 +23,7 @@ public class PrimeNumbers implements Iterable<Integer> {
                     break; // for loop
                 }
             }
-            if (isPrime && (number % 10 != 9)) { // THIS IS THE FAULT!!!
+            if (isPrime) { // THIS IS THE FAULT!!!
                 primes.add(number);
                 count++;
             }

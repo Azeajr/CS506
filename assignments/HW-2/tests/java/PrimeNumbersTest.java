@@ -25,7 +25,8 @@ class PrimeNumbersTest {
         return Stream.of(
                 Arguments.of(7, "[2, 3, 5, 7, 11, 13, 17]"),
                 Arguments.of(8, "[2, 3, 5, 7, 11, 13, 17, 19]"),
-                Arguments.of(9, "[2, 3, 5, 7, 11, 13, 17, 19, 23]")
+                Arguments.of(9, "[2, 3, 5, 7, 11, 13, 17, 19, 23]"),
+                Arguments.of(10, "[2, 3, 5, 7, 11, 13, 17, 19, 23, 29]")
         );
     }
 
