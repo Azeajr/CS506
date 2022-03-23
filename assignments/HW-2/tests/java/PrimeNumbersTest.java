@@ -38,12 +38,4 @@ class PrimeNumbersTest {
         primeNumbers.computePrimes(n);
         assertEquals(expected, primeNumbers.toString());
     }
-
-    @Test
-    void iterator() {
-    }
-
-    @Test
-    void testToString() {
-    }
 }
